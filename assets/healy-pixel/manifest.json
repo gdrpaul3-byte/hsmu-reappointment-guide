@@ -1,0 +1,30 @@
+{
+  "name": "healy-pixel",
+  "displayName": "힐리 pixel mascot",
+  "characterName": "힐리",
+  "description": "9-frame pixel-art wing-flap sprite for the HSMU workshop mascot.",
+  "spriteSheet": "assets/sheet-transparent.png",
+  "preview": "assets/animation.gif",
+  "frames": {
+    "count": 9,
+    "columns": 3,
+    "rows": 3,
+    "files": [
+      "assets/healy-frame-1.png",
+      "assets/healy-frame-2.png",
+      "assets/healy-frame-3.png",
+      "assets/healy-frame-4.png",
+      "assets/healy-frame-5.png",
+      "assets/healy-frame-6.png",
+      "assets/healy-frame-7.png",
+      "assets/healy-frame-8.png",
+      "assets/healy-frame-9.png"
+    ]
+  },
+  "defaultAnimation": {
+    "name": "healy-wing-flap",
+    "durationMs": 1350,
+    "timing": "steps(1, end)",
+    "respectsReducedMotion": true
+  }
+}
